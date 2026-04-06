@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Productivity Enforcer",
+  "version": "1.0.0",
+  "description": "Reports tab URLs to the productivity enforcer and allows closing unproductive tabs",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
