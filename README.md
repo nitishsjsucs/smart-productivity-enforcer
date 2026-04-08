@@ -257,6 +257,16 @@ smart-productivity-enforcer/
   pyproject.toml            # Project metadata and dependencies
 ```
 
+## My Contributions
+
+- **Activity Monitor** — Built the system-level activity monitoring engine that tracks active window titles, application usage, and browser tab content in real-time on Windows using Win32 APIs.
+- **LLM-Based Distraction Detection** — Designed and implemented the local language model integration that classifies activities as productive or distracting based on configurable user-defined rules and natural language understanding.
+- **Automated Enforcement** — Developed the enforcement module that automatically closes distracting applications and browser tabs, with configurable grace periods, whitelisting, and escalation policies.
+- **Chrome Extension Bridge** — Created the Chrome Manifest V3 extension and WebSocket bridge that enables tab-level monitoring and selective tab closure from the Python backend.
+- **CLI & Background Service** — Implemented the Typer-based CLI (`spe` command) and Windows Task Scheduler integration for headless background operation with JSONL activity logging and daily analysis reports.
+
+---
+
 ## License
 
 MIT
